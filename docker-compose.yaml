@@ -5,6 +5,6 @@ services:
     build: .
     container_name: appproduct
     ports:
-      - "9000:9000"
+      - "5000:5000"
     volumes:
       - .:/go/src/
